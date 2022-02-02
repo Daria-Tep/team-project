@@ -13,6 +13,9 @@ body {
     padding: 0;
 }
 
+
+/*----SKILLS-----*/
+
 .skills {
     width: 100%;
     height: min-content;
@@ -105,4 +108,83 @@ body {
 .skills-img img {
     width: 100%;
     height: auto;
+}
+
+
+/*-----HOW I WORK-----*/
+
+.how-work {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEFF1;
+}
+
+.how-work-container {
+    max-width: 1110px;
+    width: 90%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-text-container {
+    max-width: 445px;
+    width: 95%;
+    height: min-content;
+    text-align: center;
+    margin-bottom: 57px;
+    margin-top: 100px;
+}
+
+.work-text-container h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+}
+
+.work-text-container p {
+    margin: 0;
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.video-container {
+    position: relative;
+    max-width: 1150px;
+    width: 100%;
+    height: min-content;
+    margin-bottom: 100px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.video-btn {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    cursor: pointer;
+    fill: #ffffff;
+    transition: .5s;
+}
+
+.video-btn:hover {
+    fill: #727272;
 }
